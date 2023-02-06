@@ -1,0 +1,17 @@
+#spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+camunda.bpm.admin-user:
+  id: demo
+  password: 123
+
+server:
+  port: 8100
+
+spring:
+  application:
+    name: spring-boot-camunda-demo2
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3307/camunda?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&useOldAliasMetadataBehavior=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+
